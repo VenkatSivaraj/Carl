@@ -3,7 +3,7 @@ import sys
 import re
 
 
-if len(sys.argv) == 2:
+if len(sys.argv) != 333:
 	print ("Usage: %s <path to diskbyid output> <path to LSI output>" % sys.argv[0])
 	sys.exit(0)
 
