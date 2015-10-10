@@ -1,0 +1,150 @@
+LSI Corporation SAS2 IR Configuration Utility.
+Version 16.00.00.00 (2013.03.01)
+Copyright (c) 2009-2013 LSI Corporation. All rights reserved.
+
+Read configuration has been initiated for controller 0
+------------------------------------------------------------------------
+Controller information
+------------------------------------------------------------------------
+  Controller type                         : SAS2008
+  BIOS version                            : 0.00.00.00
+  Firmware version                        : 19.00.00.00
+  Channel description                     : 1 Serial Attached SCSI
+  Initiator ID                            : 0
+  Maximum physical devices                : 255
+  Concurrent commands supported           : 3432
+  Slot                                    : Unknown
+  Segment                                 : 0
+  Bus                                     : 1
+  Device                                  : 0
+  Function                                : 0
+  RAID Support                            : No
+------------------------------------------------------------------------
+IR Volume information
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+Physical device information
+------------------------------------------------------------------------
+Initiator at ID #0
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 0
+  SAS Address                             : 4433221-1-0300-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST31000424CS
+  Firmware Revision                       : CA14
+  Serial No                               : 5VX1ZX6W
+  GUID                                    : 5000c5003d19e83a
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 1
+  SAS Address                             : 4433221-1-0200-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST1000VM002-1CT1
+  Firmware Revision                       : SC23
+  Serial No                               : W1G09RCB
+  GUID                                    : 5000c50049ba0da3
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 2
+  SAS Address                             : 4433221-1-0100-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST31000424CS
+  Firmware Revision                       : CA14
+  Serial No                               : 5VX1YBZ1
+  GUID                                    : 5000c5003d0e46c9
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 3
+  SAS Address                             : 5000039-3-98c9-17be
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : TOSHIBA
+  Model Number                            : MK1001TRKB
+  Firmware Revision                       : DCA8
+  Serial No                               : X1F0A0K6FLD6
+  GUID                                    : 5000039398c917bc
+  Protocol                                : SAS
+  Drive Type                              : SAS_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 4
+  SAS Address                             : 4433221-1-0700-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST1000VM002-1CT1
+  Firmware Revision                       : SC23
+  Serial No                               : W1G05NP4
+  GUID                                    : 5000c5005c62d2be
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 5
+  SAS Address                             : 4433221-1-0600-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST31000424CS
+  Firmware Revision                       : CA14
+  Serial No                               : 5VX1XL3V
+  GUID                                    : 5000c5003d10aab5
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 6
+  SAS Address                             : 4433221-1-0500-0000
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : ATA
+  Model Number                            : ST31000424CS
+  Firmware Revision                       : CA14
+  Serial No                               : 5VX1ZTV4
+  GUID                                    : 5000c5003d1a24c6
+  Protocol                                : SATA
+  Drive Type                              : SATA_HDD
+
+Device is a Hard disk
+  Enclosure #                             : 1
+  Slot #                                  : 7
+  SAS Address                             : 5000039-3-98c9-1852
+  State                                   : Ready (RDY)
+  Size (in MB)/(in sectors)               : 953869/1953525167
+  Manufacturer                            : TOSHIBA
+  Model Number                            : MK1001TRKB
+  Firmware Revision                       : DCA8
+  Serial No                               : X1F0A0KYFLD6
+  GUID                                    : 5000039398c91850
+  Protocol                                : SAS
+  Drive Type                              : SAS_HDD
+------------------------------------------------------------------------
+Enclosure information
+------------------------------------------------------------------------
+  Enclosure#                              : 1
+  Logical ID                              : 50000000:80000000
+  Numslots                                : 8
+  StartSlot                               : 0
+------------------------------------------------------------------------
+SAS2IRCU: Command DISPLAY Completed Successfully.
+SAS2IRCU: Utility Completed Successfully.
