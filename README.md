@@ -1,4 +1,4 @@
 # Disk Mapper Script
 
-Usage: ./getDiskInfo.py <path to diskbyid output> <path to LSI output>
+Usage: ./getDiskInfo.py &lt;path to diskbyid output&gt; &lt;path to LSI output&gt;
 
