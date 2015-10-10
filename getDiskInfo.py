@@ -27,7 +27,6 @@ def create_guid_encl_slot_map(lsiOutputFile):
     with open(lsiOutputFile) as f:
         for line in f:
             stripped = line.rstrip('\n')
-            print(stripped)
             if stripped.find('Device') >= 0:
                 scan = 1
             if scan and (stripped.find('Slot #') > 0):
