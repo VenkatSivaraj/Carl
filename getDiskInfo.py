@@ -4,8 +4,8 @@ import re
 
 
 if len(sys.argv) != 3:
-	print ("Usage: %s <path to diskbyid output> <path to LSI output>" % sys.argv[0])
-	sys.exit(0)
+    print ("Usage: %s <path to diskbyid output> <path to LSI output>" % sys.argv[0])
+    sys.exit(0)
 
 guid_devid_map=dict()
 guid_encl_slot_map=dict()
@@ -36,8 +36,6 @@ def create_guid_encl_slot_map(lsiOutputFile):
 def print_mapping():
     for key in guid_encl_slot_map.keys():
         print("%s --> %s" % (guid_encl_slot_map[key], guid_devid_map[key])) 
-
-
 
 create_guid_dev_id_map(sys.argv[1])
 create_guid_encl_slot_map(sys.argv[2])
