@@ -16,21 +16,24 @@ def create_guid_dev_id_map(diskByIDFile):
     wwn_regex = r'wwn-0x(\w+).+$'
     with open(diskByIDFile) as f:
         for line in f:
-            match = re.search(wwn_regex, line) 
+            stripped = line.rstrip('\n')
+            match = re.search(wwn_regex, stripped) 
             if match != None:
-                guid_devid_map[match.group(1)] = line[-4:]
+                guid_devid_map[match.group(1)] = stripped[-4:]
 
 def create_guid_encl_slot_map(lsiOutputFile):
     """Reads LSI config output and maps GUID to enclosure and slot number """
     scan = 0
     with open(lsiOutputFile) as f:
         for line in f:
-            if line.find('Device') >= 0:
+            stripped = line.rstrip('\n')
+            print(stripped)
+            if stripped.find('Device') >= 0:
                 scan = 1
-            if scan and (line.find('Slot #') > 0):
-                slot = line.split(':')[1].strip()
-            if scan and (line.find('GUID') > 0):
-                guid_encl_slot_map[line.split(':')[1].strip()] = slot
+            if scan and (stripped.find('Slot #') > 0):
+                slot = stripped.split(':')[1].strip()
+            if scan and (stripped.find('GUID') > 0):
+                guid_encl_slot_map[stripped.split(':')[1].strip()] = slot
                 scan = 0
 
 def print_mapping():
